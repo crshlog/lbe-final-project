@@ -10,7 +10,7 @@ Kalo mau push bikin branch baru dulu ya wok
 4. Testing dulu sebelum deploy
 5. Deploy
 
-1. LAYOUT
+(1). LAYOUT
    - Bikin Header
    - Bikin Navbar
    - Bikin per section aja biar gampang dibagi
@@ -19,9 +19,12 @@ Kalo mau push bikin branch baru dulu ya wok
 Referensi:
 <img width="1917" height="932" alt="image" src="https://github.com/user-attachments/assets/ce64a808-70f8-42f7-9988-7da3145a2529" />
 
-Header: Logo dan welcome paling
-Navbar: Logo(atau home) Search Jadwal Upcoming
-Section: Upcoming, tahunan, lomba
+Header: Logo dan welcome paling\n
+Navbar: Logo(atau home) Search Jadwal Upcoming\n
+Section: Upcoming, tahunan, lomba\n
+
+DESIGN LOW FI:
+https://www.figma.com/site/SECImJa0e3r6ktf3tQ8cdy/Untitled?node-id=0-1&t=IMaQkC2fzataa6PT-1
 
 
 ## Learn More
