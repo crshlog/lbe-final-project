@@ -2,27 +2,27 @@
 # lbe-final-project
 repo untuk final project LBE Alpro
 =======
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Kalo mau push bikin branch baru dulu ya wok
 
-## Getting Started
+1. Bikin layout web dulu pake HTML (atau Typescript)
+2. Styling pake CSS (atau Tailwind)
+3. Bikin interaktif pake Javascript (atau Typescript)
+4. Testing dulu sebelum deploy
+5. Deploy
 
-First, run the development server:
+1. LAYOUT
+   - Bikin Header
+   - Bikin Navbar
+   - Bikin per section aja biar gampang dibagi
+   - Bikin footer (gak harus seh)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Referensi:
+<img width="1917" height="932" alt="image" src="https://github.com/user-attachments/assets/ce64a808-70f8-42f7-9988-7da3145a2529" />
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Header: Logo dan welcome paling
+Navbar: Logo(atau home) Search Jadwal Upcoming
+Section: Upcoming, tahunan, lomba
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More
 
