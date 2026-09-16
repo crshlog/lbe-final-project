@@ -9,7 +9,7 @@ export default function Kepanitiaan({ ref }: GenreProps) {
   return (
     <div
       ref={ref}
-      className="relative ease-in-out duration-300 hover:scale-105 font-['Iosevka_Charon:Bold',sans-serif] h-32 leading-[normal] left-16 not-italic text-[96px] text-white w-fit"
+      className="relative ease-in-out duration-300 hover:scale-105 font-['Iosevka_Charon:Bold',sans-serif] h-32 leading-[normal] left-16 not-italic text-[96px] text-white w-fit hover:cursor-pointer"
     >
       {`>> KEPANITIAAN`}
     </div>

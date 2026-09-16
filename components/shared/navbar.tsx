@@ -38,19 +38,19 @@ function Frame({
       </a>
       <button
         onClick={onUpcomingClick}
-        className="relative shrink-0 hover:text-gray-400 ease-in-out duration-300"
+        className="relative shrink-0 hover:text-gray-400 ease-in-out duration-300 hover:cursor-pointer"
       >
         Upcoming
       </button>
       <button
         onClick={onLombaClick}
-        className="relative shrink-0 hover:text-gray-400 ease-in-out duration-300"
+        className="relative shrink-0 hover:text-gray-400 ease-in-out duration-300 hover:cursor-pointer"
       >
         Lomba
       </button>
       <button
         onClick={onKepanitiaanClick}
-        className="relative shrink-0 hover:text-gray-400 ease-in-out duration-300"
+        className="relative shrink-0 hover:text-gray-400 ease-in-out duration-300 hover:cursor-pointer"
       >
         Kepanitiaan
       </button>
