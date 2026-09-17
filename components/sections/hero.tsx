@@ -14,4 +14,5 @@ export default function HeroText() {
       <p className="relative font-['Iosevka_Charon:Bold',sans-serif] leading-[normal] not-italic text-6xl text-black whitespace-nowrap">{`>> Pusat Informasi Gelap`}</p>
     </div>
   );
+  ``;
 }
