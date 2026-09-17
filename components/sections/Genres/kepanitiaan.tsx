@@ -5,7 +5,7 @@ import React from "react";
 interface GenreProps {
   ref?: React.Ref<HTMLAnchorElement>;
 }
-export default function Lomba({ ref }: GenreProps) {
+export default function Kepanitiaan({ ref }: GenreProps) {
   return (
     <a
       ref={ref}

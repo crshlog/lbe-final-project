@@ -7,6 +7,7 @@ const iosevkaCharon = Iosevka_Charon({
   subsets: ["latin"],
   weight: ["400", "700"],
   style: ["normal", "italic"],
+  adjustFontFallback: false,
 });
 
 const iosevkaCharonMono = Iosevka_Charon_Mono({
@@ -14,6 +15,7 @@ const iosevkaCharonMono = Iosevka_Charon_Mono({
   subsets: ["latin"],
   weight: ["400", "700"],
   style: ["normal", "italic"],
+  adjustFontFallback: false,
 });
 
 export const metadata: Metadata = {
