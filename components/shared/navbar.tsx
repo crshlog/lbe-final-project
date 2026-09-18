@@ -1,26 +1,11 @@
 "use client";
 
+import { useRef } from "react";
+
 interface NavbarProps {
   onUpcomingClick?: () => void;
   onLombaClick?: () => void;
   onKepanitiaanClick?: () => void;
-}
-
-import { TextField } from "@mui/material";
-
-function SearchBar() {
-  return (
-    <div className="main">
-      <div className="search h-16">
-        <TextField
-          id="outlined-basic"
-          variant="filled"
-          className="w-56"
-          label="Search"
-        />
-      </div>
-    </div>
-  );
 }
 
 function Frame({
@@ -63,6 +48,13 @@ export default function Navbar({
   onLombaClick,
   onKepanitiaanClick,
 }: NavbarProps) {
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  const cariName = () => {
+    const value = inputRef.current?.value ?? "";
+    window.open(`./search?query=${encodeURIComponent(value)}`, "_self");
+  };
+
   return (
     <div
       className="flex gap-14 size-full h-20 items-center bg-[#ddd]"
@@ -76,8 +68,18 @@ export default function Navbar({
         onLombaClick={onLombaClick}
         onKepanitiaanClick={onKepanitiaanClick}
       />
-      <div className="ml-auto mr-8">
-        <SearchBar />
+      <div className="ml-auto mr-8  items-center flex justify-center text-white outline-0">
+        <input
+          type="text"
+          ref={inputRef}
+          className="bg-amber-700 h-16 rounded-2xl w-50"
+          placeholder="   Search"
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              cariName();
+            }
+          }}
+        ></input>
       </div>
     </div>
   );
