@@ -3,7 +3,11 @@
 import { useEffect, useState, useRef } from "react";
 import { loadCards } from "./script";
 
-export default function Kepanitiaan() {
+export default function Kepanitiaan({
+  ref,
+}: {
+  ref: React.RefObject<HTMLDivElement | null>;
+}) {
   const popUp = useRef<HTMLDialogElement>(null);
   const [items, setItems] = useState<any[]>([]);
   const [selected, setSelected] = useState<any | null>(null);
@@ -22,7 +26,7 @@ export default function Kepanitiaan() {
   );
 
   return (
-    <div className="flex flex-col pl-16">
+    <div className="flex flex-col pl-16" ref={ref}>
       <a
         href={`/3`}
         className="relative ease-in-out duration-300 hover:scale-101 font-['Iosevka_Charon:Bold',sans-serif]
