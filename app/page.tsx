@@ -33,7 +33,8 @@ export default function Home() {
         <Upcoming></Upcoming>
         <Lomba></Lomba>
         <Kepanitiaan></Kepanitiaan>
-      <div className="absolute flex flex-col pb-32 size-full h-fit w-full bg-gray-600 gap-y-12">
+      </div>
+      {/* <div className="absolute flex flex-col pb-32 size-full h-fit w-full bg-gray-600 gap-y-12">
         <Upcoming ref={UpcomingRef}></Upcoming>
         <div className="flex gap-x-12 mx-5 pb-16">
           <Card></Card>
@@ -55,7 +56,7 @@ export default function Home() {
           <Card></Card>
           <Card></Card>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

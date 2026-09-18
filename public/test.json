@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "image": "/images/innovation-expo.jpg",
+    "nama": "ITS Innovation Expo 2026",
+    "date_start": "2026-10-01T00:00:00+07:00",
+    "date_end": "2026-10-05T00:00:00+07:00",
+    "link_ig": "https://instagram.com/itsinnovation",
+    "link_guidebook": "https://example.com/guidebook/innovation",
+    "link_pendaftaran": "https://example.com/register/innovation",
+    "genre": "Upcoming"
+  },
+  {
+    "id": 2,
+    "image": "/images/informatics-comp.jpg",
+    "nama": "Informatics Competition 2026",
+    "date_start": "2026-10-10T00:00:00+07:00",
+    "date_end": "2026-10-15T00:00:00+07:00",
+    "link_ig": "https://instagram.com/ifcompetition",
+    "link_guidebook": "https://example.com/guidebook/competition",
+    "link_pendaftaran": "https://example.com/register/competition",
+    "genre": "Lomba"
+  },
+  {
+    "id": 3,
+    "image": "/images/tech-talk.jpg",
+    "nama": "ITS Tech Talk 2026",
+    "date_start": "2026-11-01T00:00:00+07:00",
+    "date_end": "2026-11-02T00:00:00+07:00",
+    "link_ig": "https://instagram.com/itstechtalk",
+    "link_guidebook": "https://example.com/guidebook/techtalk",
+    "link_pendaftaran": "https://example.com/register/techtalk",
+    "genre": "Kepanitiaan"
+  },
+  {
+    "id": 4,
+    "image": "/images/innovation-expo.jpg",
+    "nama": "ITS Innovation Expo 2026",
+    "date_start": "2026-10-01T00:00:00+07:00",
+    "date_end": "2026-10-05T00:00:00+07:00",
+    "link_ig": "https://instagram.com/itsinnovation",
+    "link_guidebook": "https://example.com/guidebook/innovation",
+    "link_pendaftaran": "https://example.com/register/innovation",
+    "genre": "Upcoming"
+  },
+  {
+    "id": 5,
+    "image": "/images/informatics-comp.jpg",
+    "nama": "Informatics Competition 2026",
+    "date_start": "2026-10-10T00:00:00+07:00",
+    "date_end": "2026-10-15T00:00:00+07:00",
+    "link_ig": "https://instagram.com/ifcompetition",
+    "link_guidebook": "https://example.com/guidebook/competition",
+    "link_pendaftaran": "https://example.com/register/competition",
+    "genre": "Lomba"
+  },
+  {
+    "id": 6,
+    "image": "/images/tech-talk.jpg",
+    "nama": "ITS Tech Talk 2026",
+    "date_start": "2026-11-01T00:00:00+07:00",
+    "date_end": "2026-11-02T00:00:00+07:00",
+    "link_ig": "https://instagram.com/itstechtalk",
+    "link_guidebook": "https://example.com/guidebook/techtalk",
+    "link_pendaftaran": "https://example.com/register/techtalk",
+    "genre": "Kepanitiaan"
+  },
+  {
+    "id": 7,
+    "image": "/images/innovation-expo.jpg",
+    "nama": "ITS Innovation Expo 2026",
+    "date_start": "2026-10-01T00:00:00+07:00",
+    "date_end": "2026-10-05T00:00:00+07:00",
+    "link_ig": "https://instagram.com/itsinnovation",
+    "link_guidebook": "https://example.com/guidebook/innovation",
+    "link_pendaftaran": "https://example.com/register/innovation",
+    "genre": "Upcoming"
+  },
+  {
+    "id": 8,
+    "image": "/images/informatics-comp.jpg",
+    "nama": "Informatics Competition 2026",
+    "date_start": "2026-10-10T00:00:00+07:00",
+    "date_end": "2026-10-15T00:00:00+07:00",
+    "link_ig": "https://instagram.com/ifcompetition",
+    "link_guidebook": "https://example.com/guidebook/competition",
+    "link_pendaftaran": "https://example.com/register/competition",
+    "genre": "Lomba"
+  },
+  {
+    "id": 9,
+    "image": "/images/tech-talk.jpg",
+    "nama": "ITS Tech Talk 2026",
+    "date_start": "2026-11-01T00:00:00+07:00",
+    "date_end": "2026-11-02T00:00:00+07:00",
+    "link_ig": "https://instagram.com/itstechtalk",
+    "link_guidebook": "https://example.com/guidebook/techtalk",
+    "link_pendaftaran": "https://example.com/register/techtalk",
+    "genre": "Kepanitiaan"
+  },
+  {
+    "id": 10,
+    "image": "/images/innovation-expo.jpg",
+    "nama": "ITS Innovation Expo 2026",
+    "date_start": "2026-10-01T00:00:00+07:00",
+    "date_end": "2026-10-05T00:00:00+07:00",
+    "link_ig": "https://instagram.com/itsinnovation",
+    "link_guidebook": "https://example.com/guidebook/innovation",
+    "link_pendaftaran": "https://example.com/register/innovation",
+    "genre": "Upcoming"
+  },
+  {
+    "id": 11,
+    "image": "/images/informatics-comp.jpg",
+    "nama": "Informatics Competition 2026",
+    "date_start": "2026-10-10T00:00:00+07:00",
+    "date_end": "2026-10-15T00:00:00+07:00",
+    "link_ig": "https://instagram.com/ifcompetition",
+    "link_guidebook": "https://example.com/guidebook/competition",
+    "link_pendaftaran": "https://example.com/register/competition",
+    "genre": "Lomba"
+  },
+  {
+    "id": 12,
+    "image": "/images/tech-talk.jpg",
+    "nama": "ITS Tech Talk 2026",
+    "date_start": "2026-11-01T00:00:00+07:00",
+    "date_end": "2026-11-02T00:00:00+07:00",
+    "link_ig": "https://instagram.com/itstechtalk",
+    "link_guidebook": "https://example.com/guidebook/techtalk",
+    "link_pendaftaran": "https://example.com/register/techtalk",
+    "genre": "Kepanitiaan"
+  },
+  {
+    "id": 13,
+    "image": "/images/innovation-expo.jpg",
+    "nama": "ITS Innovation Expo 2026",
+    "date_start": "2026-10-01T00:00:00+07:00",
+    "date_end": "2026-10-05T00:00:00+07:00",
+    "link_ig": "https://instagram.com/itsinnovation",
+    "link_guidebook": "https://example.com/guidebook/innovation",
+    "link_pendaftaran": "https://example.com/register/innovation",
+    "genre": "Upcoming"
+  },
+  {
+    "id": 14,
+    "image": "/images/innovation-expo.jpg",
+    "nama": "Informatics asasasa 2026",
+    "date_start": "2026-10-10T00:00:00+07:00",
+    "date_end": "2026-10-15T00:00:00+07:00",
+    "link_ig": "https://instagram.com/ifcompetition",
+    "link_guidebook": "https://example.com/guidebook/competition",
+    "link_pendaftaran": "https://example.com/register/competition",
+    "genre": "Lomba"
+  },
+  {
+    "id": 15,
+    "image": "/images/innovation-expo.jpg",
+    "nama": "Woulah cik",
+    "date_start": "2026-11-01T00:00:00+07:00",
+    "date_end": "2026-11-02T00:00:00+07:00",
+    "link_ig": "https://instagram.com/itstechtalk",
+    "link_guidebook": "https://example.com/guidebook/techtalk",
+    "link_pendaftaran": "https://example.com/register/techtalk",
+    "genre": "Kepanitiaan"
+  }
+]
