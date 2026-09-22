@@ -1,6 +1,5 @@
 "use client";
 
-import { useParams } from "next/navigation";
 import { loadCards } from "@/components/sections/Genres/script";
 import { useEffect, useState, useRef } from "react";
 import { useSearchParams } from "next/navigation";
@@ -28,7 +27,7 @@ export default function Section(value: string) {
       <div className="relative contents top-21" data-name="Lomba">
         <p className="[word-break:break-word] relative font-['Iosevka_Charon:Bold',sans-serif] h-fit leading-[normal] left-[72px] not-italic text-[96px] text-black top-[84px] w-fit">{`>> HASIL SEARCH ${query}`}</p>
 
-        <div className="grid grid-cols-4 mx-28 mt-32 space-y-12 h-auto scrollbar-none">
+        <div className="grid grid-cols-5 w-full space-y-12 h-auto scrollbar-none">
           {item.map((item) => (
             <a
               key={item.id}
