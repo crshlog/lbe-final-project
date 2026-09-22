@@ -57,18 +57,20 @@ export default function Navbar({
 
   return (
     <div
-      className="flex gap-14 size-full h-20 items-center bg-[#ddd]"
+      className="flex lg:gap-14 size-full h-20 items-center bg-[#ddd]"
       data-name="Navbar"
     >
       <p className="relative font-['Iosevka_Charon:Bold',sans-serif] leading-[normal] left-9 not-italic text-2xl text-black whitespace-nowrap">
         PUSING
       </p>
-      <Frame
-        onUpcomingClick={onUpcomingClick}
-        onLombaClick={onLombaClick}
-        onKepanitiaanClick={onKepanitiaanClick}
-      />
-      <div className="ml-auto mr-8  items-center flex justify-center text-white outline-0">
+      <div className="hidden lg:block">
+        <Frame
+          onUpcomingClick={onUpcomingClick}
+          onLombaClick={onLombaClick}
+          onKepanitiaanClick={onKepanitiaanClick}
+          />
+      </div>
+      <div className="ml-auto mr-8 items-center flex justify-center text-white outline-0">
         <input
           type="text"
           ref={inputRef}
