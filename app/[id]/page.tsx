@@ -4,6 +4,7 @@ import Navbar from "@/components/shared/navbar";
 import { useParams } from "next/navigation";
 import { loadCards } from "@/components/sections/Genres/script";
 import { useEffect, useState, useRef } from "react";
+import Navbar from "@/components/shared/navbar";
 
 export default function Section() {
   const popUp = useRef<HTMLDialogElement>(null);
@@ -34,20 +35,23 @@ export default function Section() {
       </div>
       <div className="relative contents top-21" data-name="Lomba">
         <p className="[word-break:break-word] relative font-['Iosevka_Charon:Bold',sans-serif] h-fit leading-[normal] left-[72px] not-italic text-[96px] text-black top-[84px] w-[729px]">{`>> ${item.Genre}`}</p>
+      <Navbar></Navbar>
+      <div className="relative contents top-21" data-name="Lomba">
+        <p className="[word-break:break-word] relative h-fit leading-[normal] left-[72px] not-italic text-[96px] text-white top-[84px] w-[729px]">{`>> ${item.genre}`}</p>
 
-        <div className="grid grid-cols-4 mx-28 mt-32 space-y-12 h-auto scrollbar-none">
+        <div className="relative grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 mt-40 pb-24 gap-y-40 w-full overflow-x-hidden h-auto scrollbar-none">
           {filteredItems.map((item) => (
             <a
               key={item.id}
               onClick={() => popupPage(item)}
-              className="shrink-0 text-center ease-in-out duration-300 hover:scale-102"
+              className="flex flex-col scale-125 items-center text-center ease-in-out duration-300 hover:scale-102 w-full"
             >
               <img
-                className="aspect-3/4 w-40 lg:w-2xs object-cover"
+                className="aspect-3/4 w-full max-w-40 lg:max-w-2xs object-cover"
                 src={item.image}
                 alt={item.nama}
               />
-              <h3 className="max-w-40 lg:max-w-2xs wrap-break-words font-['Iosevka_Charon:Bold',sans-serif] text-sm lg:text-xl text-white">
+              <h3 className="max-w-40 lg:max-w-2xs wrap-break-words font-['Iosevka_Charon:Bold',sans-serif] text-sm lg:text-xl text-white mt-2">
                 {item.nama}
               </h3>
             </a>
