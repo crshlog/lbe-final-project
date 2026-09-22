@@ -22,7 +22,7 @@ export default function Upcoming({
   }, []);
 
   const filteredItems = items.filter(
-    (item) => String(item.genre) === "Upcoming",
+    (item) => String(item.Genre) === "Upcoming",
   );
 
   return (

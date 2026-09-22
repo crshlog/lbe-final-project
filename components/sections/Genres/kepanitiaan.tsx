@@ -22,8 +22,16 @@ export default function Kepanitiaan({
   }, []);
 
   const filteredItems = items.filter(
-    (item) => String(item.genre) === "Kepanitiaan",
+    (item) => String(item.Genre) === "Kepanitiaan",
   );
+
+  const formatDate = (date: string) => {
+  return new Date(date).toLocaleDateString("id-ID", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+  });
+};
 
   return (
     <div className="flex flex-col pl-16" ref={ref}>
@@ -64,7 +72,8 @@ export default function Kepanitiaan({
             <div className="[word-break:break-word] content-stretch flex flex-col font-['Iosevka_Charon:Bold',sans-serif] gap-[35px] items-center leading-[normal] left-0 not-italic text-[32px] text-black top-0 w-[768px] pr-10">
               <p className="relative shrink-0 w-full">Nama: {selected.nama}</p>
               <p className="relative shrink-0 w-full">
-                Tanggal Pendaftaran: {selected.date_start} - {selected.date_end}
+                Tanggal Pendaftaran: {formatDate(selected.date_start)} -{" "}
+                {formatDate(selected.date_end)}
               </p>
               <p className="relative shrink-0 w-full">
                 Link Instagram: {selected.link_ig}

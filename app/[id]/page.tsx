@@ -1,5 +1,6 @@
 "use client";
 
+import Navbar from "@/components/shared/navbar";
 import { useParams } from "next/navigation";
 import { loadCards } from "@/components/sections/Genres/script";
 import { useEffect, useState, useRef } from "react";
@@ -21,14 +22,18 @@ export default function Section() {
 
   const item = items.find((item) => String(item.id) === id);
 
-  const filteredItems = items.filter((i) => i.genre === item.genre);
-
+  const filteredItems = items.filter(
+    (item) => String(item.Genre) === "Kepanitiaan",
+  );
   if (!item) return <p>Loading...</p>;
 
   return (
     <div className="bg-gray-600 relative h-fit size-full" data-name="Section">
+      <div className="invert">
+        <Navbar></Navbar>
+      </div>
       <div className="relative contents top-21" data-name="Lomba">
-        <p className="[word-break:break-word] relative font-['Iosevka_Charon:Bold',sans-serif] h-fit leading-[normal] left-[72px] not-italic text-[96px] text-black top-[84px] w-[729px]">{`>> ${item.genre}`}</p>
+        <p className="[word-break:break-word] relative font-['Iosevka_Charon:Bold',sans-serif] h-fit leading-[normal] left-[72px] not-italic text-[96px] text-black top-[84px] w-[729px]">{`>> ${item.Genre}`}</p>
 
         <div className="grid grid-cols-4 mx-28 mt-32 space-y-12 h-auto scrollbar-none">
           {filteredItems.map((item) => (

@@ -21,7 +21,7 @@ export default function Lomba({
     loadCards().then(setItems);
   }, []);
 
-  const filteredItems = items.filter((item) => String(item.genre) === "Lomba");
+  const filteredItems = items.filter((item) => String(item.Genre) === "Lomba");
 
   return (
     <div className="flex flex-col pl-16 " ref={ref}>
