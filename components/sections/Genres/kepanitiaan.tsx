@@ -17,6 +17,10 @@ export default function Kepanitiaan({
     popUp.current?.showModal();
   };
 
+  const closePopupPage = () => {
+    popUp.current?.close();
+  };
+
   useEffect(() => {
     loadCards().then(setItems);
   }, []);
@@ -37,10 +41,10 @@ export default function Kepanitiaan({
     <div className="flex flex-col pl-16" ref={ref}>
       <a
         href={`/3`}
-        className="relative ease-in-out duration-300 hover:scale-101 font-['Iosevka_Charon:Bold',sans-serif]
+        className="relative ease-in-out duration-300 hover:scale-101
                     text-3xl text-white pb-4 w-fit"
       >
-        {`KEPANITIAAN`}
+        {`>> KEPANITIAAN`}
       </a>
 
       <div className="flex flex-row gap-4 space-x-4 space-y-8 overflow-x-auto overflow-y-hidden h-auto scrollbar-none">
@@ -55,7 +59,7 @@ export default function Kepanitiaan({
               src={item.image}
               alt={item.nama}
             />
-            <h3 className="max-w-40 lg:max-w-2xs wrap-break-words font-['Iosevka_Charon:Bold',sans-serif] text-sm lg:text-xl text-white">
+            <h3 className="max-w-40 lg:max-w-2xs wrap-break-words text-sm lg:text-xl text-white">
               {item.nama}
             </h3>
           </a>
@@ -64,7 +68,7 @@ export default function Kepanitiaan({
 
       <dialog
         ref={popUp}
-        className="size-full mx-5 my-4 border-0 outline-0 content-center bg-transparent"
+        className="size-full border-0 outline-0 open:flex justify-center items-center backdrop-blur-lg bg-transparent p-4"
       >
         {selected && (
           <div className="relative scale-85 bg-[#928c8c] flex size-fit justify-center align-middle items-center mx-14 rounded-2xl">
@@ -75,16 +79,21 @@ export default function Kepanitiaan({
                 Tanggal Pendaftaran: {formatDate(selected.date_start)} -{" "}
                 {formatDate(selected.date_end)}
               </p>
-              <p className="relative shrink-0 w-full">
-                Link Instagram: {selected.link_ig}
-              </p>
-              <p className="relative shrink-0 w-full">
+              <p className="w-full">Link Instagram: {selected.link_ig}</p>
+              <p className="w-full">
                 Link Guidebook: {selected.link_guidebook}
               </p>
-              <p className="relative shrink-0 w-full">
+              <p className="w-full">
                 Link Pendaftaran: {selected.link_pendaftaran}
               </p>
             </div>
+
+            <button
+              onClick={() => closePopupPage()}
+              className="absolute top-2 right-2 md:top-4 md:right-4 hover:scale-120 text-3xl md:text-5xl w-10"
+            >
+              x
+            </button>
           </div>
         )}
       </dialog>
