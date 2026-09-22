@@ -30,8 +30,8 @@ export default function Lomba({
   return (
     <div className="flex flex-col pl-16" ref={ref}>
       <a
-        href={`/3`}
-        className="relative ease-in-out duration-300 hover:scale-101 font-['Iosevka_Charon:Bold',sans-serif]
+        href={`/2`}
+        className="relative ease-in-out duration-300 hover:scale-101
                     text-3xl text-white pb-4 w-fit"
       >
         {`>> LOMBA`}
@@ -49,7 +49,7 @@ export default function Lomba({
               src={item.image}
               alt={item.nama}
             />
-            <h3 className="max-w-40 lg:max-w-2xs wrap-break-words font-['Iosevka_Charon:Bold',sans-serif] text-sm lg:text-xl text-white">
+            <h3 className="max-w-40 lg:max-w-2xs wrap-break-words text-sm lg:text-xl text-white">
               {item.nama}
             </h3>
           </a>
@@ -68,8 +68,8 @@ export default function Lomba({
               alt={selected.nama}
             />
 
-            <div className="[word-break:break-word] flex flex-col font-['Iosevka_Charon:Bold',sans-serif] gap-4 md:gap-6 items-start text-left leading-normal not-italic text-lg sm:text-xl md:text-2xl lg:text-[32px] text-black w-full">
-              <p className="w-full">Nama: {selected.nama}</p>
+            <div className="[word-break:break-word] flex flex-col gap-4 md:gap-6 items-start text-left leading-normal not-italic text-lg sm:text-xl md:text-2xl lg:text-[32px] text-black w-full">
+              <p className="w-full font-black">{selected.nama}</p>
               <p className="w-full">
                 Tanggal Pendaftaran: {selected.date_start} - {selected.date_end}
               </p>

@@ -8,10 +8,10 @@ export default function HeroText() {
         className="absolute bg-linear-to-b from-white h-226 left-0 to-gray-600 w-full"
         data-name="gradient"
       />
-      <p className="relative font-['Iosevka_Charon:Bold',sans-serif] leading-[normal] not-italic text-[200px] text-black">
+      <p className="relative leading-[normal] not-italic text-[200px] text-black">
         PUSING
       </p>
-      <p className="relative font-['Iosevka_Charon:Bold',sans-serif] leading-[normal] not-italic text-6xl text-black whitespace-nowrap">{`>> Pusat Informasi Gelap`}</p>
+      <p className="relative leading-[normal] not-italic text-6xl text-black whitespace-nowrap">{`>> Pusat Informasi Gelap`}</p>
     </div>
   );
   ``;
