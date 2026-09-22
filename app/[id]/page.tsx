@@ -1,5 +1,6 @@
 "use client";
 
+import Navbar from "@/components/shared/navbar";
 import { useParams } from "next/navigation";
 import { loadCards } from "@/components/sections/Genres/script";
 import { useEffect, useState, useRef } from "react";
@@ -22,8 +23,9 @@ export default function Section() {
 
   const item = items.find((item) => String(item.id) === id);
 
-  const filteredItems = items.filter((i) => i.genre === item.genre);
-
+  const filteredItems = items.filter(
+    (item) => String(item.Genre) === "Kepanitiaan",
+  );
   if (!item) return <p>Loading...</p>;
 
   return (

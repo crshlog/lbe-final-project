@@ -11,4 +11,5 @@ type Event struct {
 	LinkInstagram   string    `gorm:"column:link_ig" json:"link_ig"`
 	LinkGuideBook   string    `gorm:"column:link_guidebook" json:"link_guidebook"`
 	LinkPendaftaran string    `gorm:"column:link_pendaftaran" json:"link_pendaftaran"`
+	Genre           string    `gorm:"genre"`
 }
